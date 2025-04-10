@@ -1,0 +1,153 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.content {  
+  border: 25px solid #2B81AC;
+  background-color: #3399CC;
+  color: white;
+  margin: 0 auto;
+  padding: 35px 108px;
+  max-width: 1440px;
+  width: 100%;
+}
+
+  header {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  list-style: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+li {
+  height: 147px;
+  border: 2px solid white;
+  box-sizing: border-box;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  align-content: center;
+  transition: all 0.3s ease-in;
+  
+}
+
+h1 {
+  margin: 0;
+  font-size: 21px;
+  font-weight: normal;
+  color: #fff;
+}
+
+img {
+  width: 35px;
+  height: 35px;
+}
+li:hover,
+:not(:hover)>li {
+  cursor: pointer;
+  filter: saturate(1.8);
+}
+
+.lisbon {
+  width: 583px;
+  height: 147px;
+  border: white 2px solid;
+  background-color: #71B8DB;
+  box-sizing: border-box;
+}
+
+.paris {
+  width: 291.5px;
+  height: 147px;
+  border: white 2px solid;
+  background-color: #33CCCC;
+  box-sizing: border-box;
+}
+.belgrade {
+  width: 291.5px;
+  height: 147px;
+  border: white 2px solid;
+  background-color: #B894B8;
+  box-sizing: border-box;
+}
+.venice {
+  width: 291.5px;
+  height: 147px;
+  border: white 2px solid;
+  background-color: #c46464;
+  box-sizing: border-box;
+}
+.tel-avive {
+  width: 291.5px;
+  height: 147px;
+  border: white 2px solid;
+  background-color: #EB9581;
+  box-sizing: border-box;
+}
+.cair {
+  width: 291.5px;
+  height: 147px;
+  border: white 2px solid;
+  background-color: #FFDB94;
+  box-sizing: border-box;
+}
+.new-york {
+  width: 291.5px;
+  height: 147px;
+  border: white 2px solid;
+  background-color: #B8DBB8;
+  box-sizing: border-box;
+}
+.new-delhi {
+  width: 291.5px;
+  height: 147px;
+  border: white 2px solid;
+  background-color: #94B8B8;
+  box-sizing: border-box;
+}
+.san-francisco {
+  width: 583px;
+  height: 147px;
+  border: white 2px solid;
+  background-color: #DB94B8;
+  box-sizing: border-box;
+}
+.tokyo {
+  width: 291.5px;
+  height: 147px;
+  border: white 2px solid;
+  background-color: #71B894;
+  box-sizing: border-box;
+}
+.sydney {
+  width: 1166px;
+  height: 147px;
+  border: white 2px solid;
+  background-color: #9494B8;
+  box-sizing: border-box;
+}
+
+footer {
+  align-items: center;
+  height: 79px;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+}
